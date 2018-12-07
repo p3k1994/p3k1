@@ -1,0 +1,265 @@
+* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+	min-width:500px;
+	overflow: auto;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 0;
+	font-family: 'Patrick Hand', cursive;
+	}
+	
+	#mainContent{
+		margin-top:130px;
+	}
+
+	div ul li {
+		display: inline-block;
+		padding: 10px;
+		/* float: right; */
+	}
+
+	div ul li a {
+		text-decoration: none;
+		padding: 10px
+	}
+
+	div ul li a:hover {
+		text-decoration: none;
+		color: white;
+		background-color: blue;
+	}
+	
+	#header {
+    width: 100%;
+    height: 150px;
+    background-color: orange;
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+	
+	}
+	
+	#navigationContent{
+		width: 80%;	
+		margin: 0 auto;
+		vertical-align: middle;
+	}
+	#navigationHeader div{
+		/* float:left; */
+		background-color:none;
+	}
+
+	#navigationHeader{
+	clear:both;
+    width: 100%;
+    margin: 0px auto;
+	background-color:none;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:999;
+	background-color: #fff;
+	
+	}
+
+	#logo{
+		
+		background-color: none;
+		display: inline-flex;
+		vertical-align: middle;
+	}
+
+	#navigation{
+		margin-left: 0px;
+		display: inline-flex;
+		font-size:22px;
+		vertical-align: middle;		
+	}
+	#naslovna {
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+		height:auto;
+		width:95%;
+		background-color:none;
+
+	}
+	
+	#slikaNaslovna{
+	background-attachment:fixed;
+	background-image:url('../slike/atlantic-proba.jpg');
+    width:85%;
+	height:1200px;
+    margin: 0 auto;
+    position: center;
+    display: block;
+	background-size:cover;
+	}
+	
+	#slajderNaslovna{
+	position:relative;
+	top:550px;
+	left:0px;
+	color:black;
+	background-color:rgba(250, 250, 250, 0.5);
+	padding: 50px 50px; 
+	font-size:40px;
+	}
+	
+	#slajderTekst {
+		background-color:rgba(250, 250, 250, 0.5);
+		color:black;
+		border-radius:20px;
+		padding:30px;
+		line-height:25px;
+		font-size:25px;
+		text-align:center;
+	}
+	.clanovi {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+}
+.sadrzaj {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+#galerija {
+    width: 1400px;
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+	#clanovi {
+    width: 900px;
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+	}
+	.content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+}
+	.container {
+    width: 900px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+	.secText {
+    width: 450px;
+    margin: 0px auto;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    float: left;
+    position: relative;
+}
+.secImg.Author {
+    padding-bottom: 30px;
+    position: relative;
+    top: 25px;
+}
+.secImg {
+    width: 450px;
+	height:600px;
+    margin: 0px auto;
+    position: relative;
+    top: 0px;
+    left: 30px;
+    float: right;
+}
+.box {
+    width: 1200px;
+    /* height: 300px; */
+    margin: 0px auto;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box .article {
+    width: 300px;
+    /* height: 300px; */
+    display: inline-block;
+}
+
+.Muske{
+	float: left;
+    position: relative;
+    z-index: 9;
+    background-position: center;
+    background-size: cover;
+	margin-left:150px;
+	font-size:16px;
+}
+.Zenske{
+	float: left;
+    position: relative;
+    z-index: 9;
+    background-position: center;
+    background-size: cover;
+	margin-left:150px;
+	font-size:16px
+}
+#kontakt{
+margin-left:150px;
+}
+footer {
+    width: 100%;
+    /* overflow: hidden; */
+    height: 40px;
+    /* position: relative; */
+	background-color:pink;
+	font-size:20px;
+	display: inline-flex;
+}
+	#centeredFooterContent{
+	display: inline-flex;
+	margin:0 auto;
+	}
+	
+	#autor {
+    /* position: relative; */
+    /* margin: 0px auto; */
+    text-align: left;
+    color: #fff;
+    /* padding-top: 32px; */
+	/* float: left; */
+	display: inline-flex;
+	
+}
+
+	.social {
+    /* width: 300px !important; */
+    /* float: right; */
+    /* position: relative; */
+	/* padding-top: 50px; */
+	display: inline-flex;
+	
+}
+	
+	#name {
+	margin-right:100px;
+		float:right;
+	}
+
+	.slikaGalerije{
+		width:300px;
+	}
